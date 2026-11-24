@@ -4,7 +4,7 @@
 }
 
 .studio {
-  width: min(1190px, calc(100% - 64px));
+  width: min(1420px, calc(100% - 64px));
   margin: 0 auto;
   padding: 0 0 25px;
 }
@@ -1084,6 +1084,199 @@ h1 > span {
 
 .footer-divider {
   color: #4f505e;
+}
+
+@media (min-width: 681px) {
+  .topbar {
+    height: 74px;
+  }
+
+  .brand {
+    font-size: 21px;
+  }
+
+  .topbar-center,
+  .autosave,
+  .eyebrow,
+  .eyebrow-version,
+  .key-signature,
+  .field-label,
+  .mood-label,
+  .control-caption,
+  .micro-badge,
+  .timeline-meta,
+  .slot-number,
+  .tempo-label,
+  .tempo-extremes,
+  .segmented-control button,
+  .preset-aside,
+  .subtle-status,
+  .option-group .field-label,
+  .octave-label,
+  .octave-label span,
+  .keyboard-footer,
+  .keyboard-footer > span:first-child,
+  .footer-left,
+  .palette-hint,
+  .clear-button {
+    font-size: 12px;
+  }
+
+  .hero-row {
+    padding-top: 42px;
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .hero-subtitle,
+  .section-title p,
+  .mood-card p,
+  .scene-note,
+  .preset-copy small,
+  .keyboard-footer > span:last-child,
+  .chord-quality {
+    font-size: 12px;
+  }
+
+  .section-title h2 {
+    font-size: 15px;
+  }
+
+  .key-signature strong,
+  .select-wrap select,
+  .hero-tag,
+  .chord-core span,
+  .slot-name,
+  .preset-copy strong,
+  .option-button span,
+  .option-button small,
+  .export-button,
+  .play-button,
+  .clear-button {
+    font-size: 13px;
+  }
+
+  .control-panel,
+  .palette-panel,
+  .timeline-panel,
+  .presets-panel,
+  .performance-panel,
+  .piano-panel {
+    padding: 21px;
+  }
+
+  .scene-controls {
+    margin-top: 22px;
+  }
+
+  .select-wrap select {
+    height: 43px;
+  }
+
+  .select-wrap svg {
+    top: 13px;
+  }
+
+  .mood-card {
+    min-height: 61px;
+  }
+
+  .chord-list {
+    gap: 7px;
+  }
+
+  .chord-card {
+    min-height: 48px;
+  }
+
+  .chord-preview {
+    padding-inline: 12px;
+  }
+
+  .chord-index {
+    font-size: 10px;
+  }
+
+  .chord-core strong {
+    font-size: 16px;
+  }
+
+  .add-chord {
+    width: 40px;
+    flex-basis: 40px;
+  }
+
+  .palette-hint {
+    margin-top: 14px;
+  }
+
+  .timeline-meta {
+    margin-top: 20px;
+  }
+
+  .timeline-slot {
+    height: 108px;
+  }
+
+  .slot-roman {
+    font-size: 24px;
+  }
+
+  .transport {
+    min-height: 66px;
+  }
+
+  .play-button {
+    min-height: 48px;
+  }
+
+  .tempo-control input[type="range"] {
+    height: 7px;
+  }
+
+  .tempo-control input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+  }
+
+  .segmented-control button {
+    min-width: 48px;
+    height: 32px;
+  }
+
+  .preset-grid {
+    gap: 10px;
+  }
+
+  .preset-card {
+    min-height: 68px;
+    padding: 12px;
+  }
+
+  .preset-icon {
+    width: 36px;
+    height: 36px;
+    flex-basis: 36px;
+  }
+
+  .option-button {
+    min-height: 58px;
+  }
+
+  .piano-svg {
+    max-height: 155px;
+  }
+
+  .footer {
+    padding-top: 22px;
+  }
+
+  .export-button {
+    min-height: 42px;
+  }
 }
 
 .export-button {
